@@ -1,11 +1,6 @@
-FROM centos:centos8
+FROM node:alpine
 
 LABEL MAINTAINER=nigelpoulton@hotmail.com
-
-# Install Node...
-RUN yum -y update; yum clean all
-RUN yum -y install epel-release; yum clean all
-RUN yum -y install nodejs npm; yum clean all
 
 # Copy app to /src
 COPY . /src

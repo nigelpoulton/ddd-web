@@ -12,5 +12,7 @@ Super-simple Node web app for containerization demos. Forked and trimmed from [h
 
 ## References
 
-Used in the following:
+[Docker Hub repo](https://hub.docker.com/repository/docker/nigelpoulton/ddd-web/general)
+
+Used in the following books/courses:
 - Educative DDD (link to follow)
